@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 10vh;
+    text-align: center;
+    background-color:aquamarine;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-style:oblique;
+    border: 2px solid black;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}
+
+.outer {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 4rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 34.5vw;
+    margin-right: 15vw;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.result {
+    display: inline;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 1vw;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    border: 2px solid black;
+    padding: 1.5vw;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.reset {
+    font-size:2rem;
+    display: block;
+}
